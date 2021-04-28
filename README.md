@@ -12,6 +12,14 @@ Creating a nft infrastructure for users to mint NFTs using our drag-and-drop UI 
 
 The user will provide a URL or a file while minting their NFT. This data is stored in the tokenURI function of the ERC721 contract (it differs slightly for ERC1155)
 
+After some research, the [ERC721PresetMinterPauserAutoId.sol](https://github.com/zapproject/nft/blob/main/contracts/ERC721PresetMinterPauserAutoId.sol) contract allows you to set the baseTokenURI in the constructor, which should make it easy for us. 
+
+## Metadata Standards
+
+'Providing asset metadata allows applications like OpenSea to pull in rich data for digital assets and easily display them in-app. Digital assets on a given smart contract are typically represented solely by a unique identifier (e.g., the token_id in ERC721), so metadata allows these assets to have additional properies, such as a name, description, and image.'
+
+* https://docs.opensea.io/docs/metadata-standards
+
 ## Listing the NFTs once created
 
 Once minted, how will the NFTs be displayed on our marketplace?
