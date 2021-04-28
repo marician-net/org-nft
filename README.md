@@ -28,6 +28,12 @@ Example of a simple Python server metadata in this Opensea repo: https://github.
 
 OpenSea supports metadata that is structured according to the official ERC721 metadata standard or the [Enjin Metadata suggestions](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1155.md#erc-1155-metadata-uri-json-schema).
 
+## Deploying your metadata API
+
+* [Python Example API server](https://github.com/ProjectOpenSea/metadata-api-python)
+
+* [NodeJS Example API server](https://github.com/ProjectOpenSea/metadata-api-python)
+
 ## Listing the NFTs once created
 
 Once minted, how will the NFTs be displayed on our marketplace?
