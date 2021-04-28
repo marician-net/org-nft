@@ -5,7 +5,7 @@ import "@nomiclabs/hardhat-waffle";
 const config: HardhatUserConfig = {
 
 	solidity: {
-	  compilers: [{ version: "0.5.0", settings: {} }, { version: "0.8.0", settings: {} }],
+	  compilers: [{ version: "0.5.0", settings: {} }, { version: "0.8.0", settings: {} }, { version: "0.4.21", settings: {} }, { version: "0.4.24", settings: {} },{ version: "0.4.23", settings: {} }],
 	},
 	networks: {
 		localhost: {
