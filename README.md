@@ -20,6 +20,14 @@ After some research, the [ERC721PresetMinterPauserAutoId.sol](https://github.com
 
 * https://docs.opensea.io/docs/metadata-standards
 
+## Serving Metadata
+
+Example of a simple Python server metadata in this Opensea repo: https://github.com/ProjectOpenSea/opensea-creatures/tree/master/metadata-api
+
+## Metadata structure
+
+OpenSea supports metadata that is structured according to the official ERC721 metadata standard or the [Enjin Metadata suggestions](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1155.md#erc-1155-metadata-uri-json-schema).
+
 ## Listing the NFTs once created
 
 Once minted, how will the NFTs be displayed on our marketplace?
