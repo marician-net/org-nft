@@ -11,3 +11,7 @@
 
 ## Metadata Storage (ARweave, IPFS Pinata)
 
+## References
+
+* https://github.com/ProjectOpenSea/ethmoji-contracts
+* https://github.com/ProjectOpenSea/opensea-creatures
