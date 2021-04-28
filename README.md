@@ -4,8 +4,9 @@ Creating a nft infrastructure for users to mint NFTs using our drag-and-drop UI 
 
 ## Smart Contracts 
 
-* ERC721: (Explanation & EIP link here)
-* ERC1155: (Explanation here)
+* [ERC721](https://eips.ethereum.org/EIPS/eip-721): A standard interface for non-fungible tokens, also known as deeds.
+ 
+* [ERC1155](https://0xjac.github.io/EIPs/EIPS/eip-1155): A standard interface for contracts that manage multiple token types. A single deployed contract may include any combination of fungible tokens, non-fungible tokens, or other configurations (for example, semi-fungible tokens).
 
 ## Updating the TokenURI
 
