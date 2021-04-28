@@ -2,7 +2,7 @@
 
 ## Smart Contracts 
 
-* ERC721: Non-Fungible Token Standard. Creates a 1:1 NFT.
+* ERC721: (Explanation & EIP link here)
 * ERC1155: (Explanation here)
 
 ## Updating the TokenURI
@@ -15,3 +15,4 @@
 
 * https://github.com/ProjectOpenSea/ethmoji-contracts
 * https://github.com/ProjectOpenSea/opensea-creatures
+* https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721
