@@ -15,6 +15,9 @@ const config: HardhatUserConfig = {
 		hardhat: {
 
 		},
+		rinkeby: {
+			url: `https://rinkeby.infura.io/v3/8b04b5a2efe54cbab00a0802cb8da8f4`,
+			accounts: [30a6d3372d7d4eaea1dfdb51217eca00],
 	},
 };
 
