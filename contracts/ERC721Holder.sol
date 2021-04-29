@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../IERC721Receiver.sol";
+import "contracts/IERC721Receiver.sol";
 
   /**
    * @dev Implementation of the {IERC721Receiver} interface.
