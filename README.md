@@ -42,7 +42,7 @@ Once minted, how will the NFTs be displayed on our marketplace?
 
 We need a mechanism for storing the tokenURI metadata on ARWeave or IPFS. 
 
-### Deploy to Ethereum
+## Deploy Contracts with Hardhat to Ethereum
 
 Create/modify network config in `hardhat.config.ts` and add API key and private key, then run:
 
