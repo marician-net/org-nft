@@ -3,7 +3,7 @@ import { HardhatUserConfig } from "hardhat/types";
 import "@nomiclabs/hardhat-waffle";
 import "hardhat-deploy";
 
-const RINKEBY_PRIVATE_KEY = "0xc87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3"
+const RINKEBY_PRIVATE_KEY = "8dc61541d0e0011b8768c382ff8384112b406b7e22a4fe9db4747d78d41fb9b2"
 
 const config: HardhatUserConfig = {
 

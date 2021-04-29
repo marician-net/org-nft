@@ -8,7 +8,7 @@ async function main() {
   let signers = await ethers.getSigners();
   
   const ERC721 = await ethers.getContractFactory('ERC721', signers[0]);
-  const nft = await ERC721.deploy();
+  const nft = await ERC721.deploy("AustinNFT", "AUS");
   await nft.deployed();
   console.log(`ERC721 Token address is ${nft.address}`);
   
