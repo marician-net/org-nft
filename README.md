@@ -8,8 +8,14 @@ Creating a nft infrastructure for users to mint NFTs using our drag-and-drop UI 
  
 * [ERC1155](https://0xjac.github.io/EIPs/EIPS/eip-1155): A standard interface for contracts that manage multiple token types. A single deployed contract may include any combination of fungible tokens, non-fungible tokens, or other configurations (for example, semi-fungible tokens).
 
-## Updating the TokenURI
+##  Deployment Addresses on Eterscan
+*[ERC721](https://etherscan.io/address/0x1DE62E4eE278F748f4026F129FF2f55D407e661d)
 
+*[ERC721Holder](https://etherscan.io/address/0xEd2c31694CB42cA324668c689E43067110fEDCAB)
+
+*[ERC721PresetMinterPauserAutoId](https://etherscan.io/address/0x5b2Cc677D24Ab250dd271b477a1bD4dF6aF48D82)
+
+## Updating the TokenURI
 The user will provide a URL or a file while minting their NFT. This data is stored in the tokenURI function of the ERC721 contract (it differs slightly for ERC1155)
 
 After some research, the [ERC721PresetMinterPauserAutoId.sol](https://github.com/zapproject/nft/blob/main/contracts/ERC721PresetMinterPauserAutoId.sol) contract allows you to set the baseTokenURI in the constructor, which should make it easy for us. 
@@ -39,11 +45,9 @@ OpenSea supports metadata that is structured according to the official ERC721 me
 Once minted, how will the NFTs be displayed on our marketplace?
 
 ## Metadata Storage (ARweave, IPFS Pinata)
-
 We need a mechanism for storing the tokenURI metadata on ARWeave or IPFS. 
 
 ## Deploy Contracts with Hardhat to Ethereum
-
 Create/modify network config in `hardhat.config.ts` and add API key and private key, then run:
 
 `npx hardhat run --network rinkeby scripts/deploy.ts`
