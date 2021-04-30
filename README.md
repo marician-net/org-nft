@@ -8,12 +8,12 @@ Creating a nft infrastructure for users to mint NFTs using our drag-and-drop UI 
  
 * [ERC1155](https://0xjac.github.io/EIPs/EIPS/eip-1155): A standard interface for contracts that manage multiple token types. A single deployed contract may include any combination of fungible tokens, non-fungible tokens, or other configurations (for example, semi-fungible tokens).
 
-##  Deployment Addresses on Eterscan
-*[ERC721](https://etherscan.io/address/0x1DE62E4eE278F748f4026F129FF2f55D407e661d)
+##  Deployment Addresses on Rinkeby Etherscan
+*[ERC721](https://rinkeby.etherscan.io/address/0x9A3645715e185Db58319B5f328aAa5eE4B242a19)
 
-*[ERC721Holder](https://etherscan.io/address/0xEd2c31694CB42cA324668c689E43067110fEDCAB)
+*[ERC721Holder](https://rinkeby.etherscan.io/address/0xb8aaB753afb159085A5ef4f69125C582a78A8184)
 
-*[ERC721PresetMinterPauserAutoId](https://etherscan.io/address/0x5b2Cc677D24Ab250dd271b477a1bD4dF6aF48D82)
+*[ERC721PresetMinterPauserAutoId](https://rinkeby.etherscan.io/address/0x03BF647e28672F80aC2106843107553470f0b7a1)
 
 ## Updating the TokenURI
 The user will provide a URL or a file while minting their NFT. This data is stored in the tokenURI function of the ERC721 contract (it differs slightly for ERC1155)
