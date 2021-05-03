@@ -58,3 +58,4 @@ Create/modify network config in `hardhat.config.ts` and add API key and private 
 * https://github.com/ProjectOpenSea/opensea-creatures
 * https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721
 * https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC1155
+* https://docs.openzeppelin.com/contracts/4.x/api/token/erc721
