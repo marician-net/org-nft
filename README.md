@@ -57,10 +57,4 @@ Create/modify network config in `hardhat.config.ts` and add API key and private 
 * https://github.com/ProjectOpenSea/ethmoji-contracts
 * https://github.com/ProjectOpenSea/opensea-creatures
 * https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721
-
-## TODO
-
-* test ERC721 creation
-* test ERC721 creation with a tokenURI having data stored on a web2 api
-* use a web3 solution to store a minted ERC721s tokenURI metadata on ARWeave or IPFS
-* Determine a method to list newly minted ERC721s
+* https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC1155
