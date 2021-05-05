@@ -40,7 +40,14 @@ Once minted, how will the NFTs be displayed on our marketplace?
 
 ## Metadata Storage (ARweave, IPFS Pinata)
 
-We need a mechanism for storing the tokenURI metadata on ARWeave or IPFS. 
+We need a mechanism for storing the tokenURI metadata on ARWeave or IPFS.
+* [Token URI on IPFS] (https://ipfs.io/ipfs/bafybeiet5qjafn63qdfs5atknibjam4atg6qxuz5dxcpzldwsbgnqinn2i/111.PNG)
+`{
+  "name": "Test Pool Image",
+  "description": "Pool Image Description",
+  "image": "ipfs://bafybeiet5qjafn63qdfs5atknibjam4atg6qxuz5dxcpzldwsbgnqinn2i/111.PNG"
+}`
+
 
 ## Deploy Contracts with Hardhat to Ethereum
 
