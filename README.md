@@ -8,8 +8,14 @@ Creating a nft infrastructure for users to mint NFTs using our drag-and-drop UI 
  
 * [ERC1155](https://0xjac.github.io/EIPs/EIPS/eip-1155): A standard interface for contracts that manage multiple token types. A single deployed contract may include any combination of fungible tokens, non-fungible tokens, or other configurations (for example, semi-fungible tokens).
 
-## Updating the TokenURI
+##  Deployment Addresses on Rinkeby Etherscan
+*[ERC721](https://rinkeby.etherscan.io/address/0x9A3645715e185Db58319B5f328aAa5eE4B242a19)
 
+*[ERC721Holder](https://rinkeby.etherscan.io/address/0xb8aaB753afb159085A5ef4f69125C582a78A8184)
+
+*[ERC721PresetMinterPauserAutoId](https://rinkeby.etherscan.io/address/0x03BF647e28672F80aC2106843107553470f0b7a1)
+
+## Updating the TokenURI
 The user will provide a URL or a file while minting their NFT. This data is stored in the tokenURI function of the ERC721 contract (it differs slightly for ERC1155)
 
 After some research, the [ERC721PresetMinterPauserAutoId.sol](https://github.com/zapproject/nft/blob/main/contracts/ERC721PresetMinterPauserAutoId.sol) contract allows you to set the baseTokenURI in the constructor, which should make it easy for us. 
@@ -39,25 +45,9 @@ OpenSea supports metadata that is structured according to the official ERC721 me
 Once minted, how will the NFTs be displayed on our marketplace?
 
 ## Metadata Storage (ARweave, IPFS Pinata)
-
-We need a mechanism for storing the tokenURI metadata on ARWeave or IPFS.
-
-* [Token URI on IPFS](https://ipfs.io/ipfs/bafybeiet5qjafn63qdfs5atknibjam4atg6qxuz5dxcpzldwsbgnqinn2i/111.PNG)
-
-`{`
-
-  `"name": "Test Pool Image",`
-
-  `"description": "Pool Image Description",`
-
-  `"image": "ipfs://bafybeiet5qjafn63qdfs5atknibjam4atg6qxuz5dxcpzldwsbgnqinn2i/111.PNG"`
-
-`}`
-
-
+We need a mechanism for storing the tokenURI metadata on ARWeave or IPFS. 
 
 ## Deploy Contracts with Hardhat to Ethereum
-
 Create/modify network config in `hardhat.config.ts` and add API key and private key, then run:
 
 `npx hardhat run --network rinkeby scripts/deploy.ts`
@@ -67,3 +57,5 @@ Create/modify network config in `hardhat.config.ts` and add API key and private 
 * https://github.com/ProjectOpenSea/ethmoji-contracts
 * https://github.com/ProjectOpenSea/opensea-creatures
 * https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721
+* https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC1155
+* https://docs.openzeppelin.com/contracts/4.x/api/token/erc721

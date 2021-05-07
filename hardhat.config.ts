@@ -1,6 +1,9 @@
 import { HardhatUserConfig } from "hardhat/types";
 
 import "@nomiclabs/hardhat-waffle";
+import "hardhat-deploy";
+
+const RINKEBY_PRIVATE_KEY = "8dc61541d0e0011b8768c382ff8384112b406b7e22a4fe9db4747d78d41fb9b2"
 
 const config: HardhatUserConfig = {
 
@@ -14,6 +17,10 @@ const config: HardhatUserConfig = {
 		},
 		hardhat: {
 
+		},
+		rinkeby: {
+			url: `https://rinkeby.infura.io/v3/8b04b5a2efe54cbab00a0802cb8da8f4`,
+			accounts: [RINKEBY_PRIVATE_KEY],
 		},
 	},
 };
