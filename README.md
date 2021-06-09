@@ -2,6 +2,11 @@
 
 Creating a nft infrastructure for users to mint NFTs using our drag-and-drop UI and have those NFTs be listed on our marketplace.
 
+## Resources
+
+* [zNFT-hooks](https://www.npmjs.com/package/@levinhs/nft-hooks)
+* [zdk](https://www.npmjs.com/package/@levinhs/zdk)
+
 ## Smart Contracts 
 
 * [ERC721](https://eips.ethereum.org/EIPS/eip-721): A standard interface for non-fungible tokens, also known as deeds.
