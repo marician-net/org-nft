@@ -13,6 +13,8 @@ Creating a nft infrastructure for users to mint NFTs using our drag-and-drop UI 
  
 * [ERC1155](https://0xjac.github.io/EIPs/EIPS/eip-1155): A standard interface for contracts that manage multiple token types. A single deployed contract may include any combination of fungible tokens, non-fungible tokens, or other configurations (for example, semi-fungible tokens).
 
+* [RFTs](https://github.com/ethereum/EIPs/issues/1634)
+
 ## Metadata Standards
 
 'Providing asset metadata allows applications like OpenSea to pull in rich data for digital assets and easily display them in-app. Digital assets on a given smart contract are typically represented solely by a unique identifier (e.g., the token_id in ERC721), so metadata allows these assets to have additional properies, such as a name, description, and image.'
