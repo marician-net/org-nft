@@ -6,6 +6,7 @@ Creating a nft infrastructure for users to mint NFTs using our drag-and-drop UI 
 
 * [zNFT-hooks](https://www.npmjs.com/package/@levinhs/nft-hooks)
 * [zdk](https://www.npmjs.com/package/@levinhs/zdk)
+* [media-metadata-schemas](https://www.npmjs.com/package/@levinhs/media-metadata-schemas/access)
 
 ## Smart Contracts 
 
